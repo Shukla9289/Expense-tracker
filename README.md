@@ -1,25 +1,23 @@
-# 💸 Expense Tracker Web App
+# Expense Tracker Web App
 
-A simple full-stack expense tracker built with Flask, MongoDB, HTML/CSS/JS.
+This is a simple expense tracking web application I built using **Flask**, **MongoDB**, and **JavaScript**. The goal of this project was to create a practical tool to record and manage expenses, and also to learn how to build REST APIs with Flask and connect them to a frontend.
 
-## 🔧 Features
-- Add, delete, and view expenses
-- Category-based tracking
-- MongoDB backend
+## Features
 
-## 🚀 How to Run Locally
+- Add new expenses (name, amount, category)
+- View all your expenses in a list
+- Delete unwanted expenses
+- Total amount calculation (coming soon)
 
-```bash
-git clone https://github.com/YOUR-USERNAME/expense-tracker.git
-cd expense-tracker
-pip install -r requirements.txt
-python app.py
-```
+## Tech Stack
 
-Make sure MongoDB is running at `mongodb://localhost:27017`.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (Flask Framework)
+- **Database**: MongoDB (local setup)
 
-## 🖥️ Tech Stack
+# **Future Improvements**
 
-- HTML, CSS, JavaScript
-- Flask (Python)
-- MongoDB
+User authentication
+Edit existing expense entries
+Filter by category/date
+Deployed version (maybe using Render or Heroku)
